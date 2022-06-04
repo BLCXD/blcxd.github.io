@@ -17,20 +17,24 @@
     <nav class="nav">
       <ul class="-nav">
         <div style="background-color: white">
-          <li>HOME</li>
-          <li></li>
-          <li>O NAS</li>
-          <li></li>
+          <li><a href="https://eggplant-receptive-blackberry.glitch.me">HOME</a></li>
+          <li><a href="#art">ARTYKUŁY</a></li>
+          
+          <li><a href="#kontakt">KONTAKT</a></li>
           <li>KONTAKT</li>
           <li></li>
         </div>
       </ul>
     </nav>
-    <section class="sec">
-      Sekcja
-      <article class="art">Artykuł</article>
-      <br />
-      <article class="art">Artykuł</article>
+    <section class="sec" id="art">
+      <h1>
+        Bardzo ciekawy Artykuł
+      </h1>
+      <article class="art">Bla bla bla <br> BLa Bla</article>
+      <h1>
+        WoW!
+      </h1>
+      <article class="art">potem blc<br>xd</article>
     </section>
     <aside class="ad">
       
@@ -42,8 +46,32 @@
       </a>
       </a>
     </aside>
-    <footer style="back">
-    
+<form id="kontakt" action="odpowiedzi.html" style="color: white">          
+<div class="box">             
+<h1>Formularz kontaktowy :</h1>             
+<label>
+<span>Nazwa użytkownika</span>                
+<input type="text" class="wpis" name="nazwa" id="nazwa"/>             
+</label>              
+<label>                
+<span>E-mail :</span>
+<input type="text" class="wpis" name="email" id="email"/>             
+</label>              
+<label>                 
+<span>Temat :</span>                 
+<input type="text" class="wpis" name="temat" id="temat"/>             
+</label>             
+<label>                 
+<span>Wiadomość :</span>                 
+<textarea class="wiadomosc" name="wiadomosc" id="tresc"></textarea>                 
+<input type="button" class="button" value="Wyślj" />             
+</label>                                  
+</div>     
+</form>
+    <footer style="background-color: white">
+    <p class="foot" style="font-size: 50px">
+       koniec
+      </p>
     </footer>
   </body>
 </html>
