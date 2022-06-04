@@ -16,6 +16,7 @@ text-align: center;
 li{
   display: inline-block;
   font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 30px;
   
 }
   
@@ -33,94 +34,60 @@ nav{
 .ad{
   text-align: right; 
   text-align: right;
+  
 }
 footer.foot{
   font-size: 50px;
 }
-* { 
-			margin: 0; 
-			padding: 0;
-		}
-		body { 
-			font: 100% normal Arial, Helvetica, sans-serif; 
-			background: #161712;
-		}
-		form, input, select, textarea {
-			margin:0; 
-			padding:0; 
-			color:#ffffff;
-		}
+input{
+  width:50%;
+  padding:10px;
+  border-radius:4px;
+  border:2px solid #141E30;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+}
  
-		div.box {
-			margin:0 auto;
-			width:500px;
-			background:#222222;
-			position:relative;
-			top:50px;
-			border:1px solid #262626;
-		}
  
-		div.box h1 { 
-			color:#ffffff;
-			font-size:18px;
-			text-transform:uppercase;
-			padding:5px 0 5px 5px;
-			border-bottom:1px solid #161712;
-			border-top:1px solid #161712; 
-		}
+legend{
+  font-size:30px;
+  color:#4a3f3e;
+  padding:15px;
+}
  
-		div.box label {
-			width:100%;
-			display: block;
-			background:#1C1C1C;
-			border-top:1px solid #262626;
-			border-bottom:1px solid #161712;
-			padding:10px 0 10px 0;
-		}
+fieldset{
+ margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:30px;
+  width:90%;
+  border:none;
+  border-top:3px solid #141E30;
  
-		div.box label span {
-			display: block;
-			color:#bbbbbb;
-			font-size:12px;
-			float:left;
-			width:100px;
-			text-align:right;
-			padding:5px 20px 0 0;
-		}
+}
  
-		div.box .wpis {
-			padding:10px 10px;
-			width:200px;
-			background:#262626;
-			border-bottom: 1px double #171717;
-			border-top: 1px double #171717;
-			border-left:1px double #333333;
-			border-right:1px double #333333;
-		}
+textarea{
+  width: 50%;
+  font-size:20px;
+  resize: none;/*blokujemy możliwość zmiany wielkości przez użytkownika*/
+  margin-bottom:20px;
+  padding:10px;
+  border:2px solid #141E30;
+  border-radius:4px;
+}
  
-		div.box .wiadomosc {
-			padding:7px 7px;
-			width:350px;
-			background:#262626;
-			border-bottom: 1px double #171717;
-			border-top: 1px double #171717;
-			border-left:1px double #333333;
-			border-right:1px double #333333;
-			overflow:hidden;
-			height:150px;
-		}
- 
-		div.box .button	{
-			margin:0 0 10px 0;
-			padding:4px 7px;
-			background:#CC0000;
-			border:0px;
-			position: relative;
-			top:10px;
-			left:382px;
-			width:100px;
-			border-bottom: 1px double #660000;
-			border-top: 1px double #660000;
-			border-left:1px double #FF0033;
-			border-right:1px double #FF0033;
-		}
+label{
+  display:block;/*dodajemy żeby można było ustawić marginesy*/
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:20px;
+}
+.button{
+  background-color: green;
+}
+a {
+   text-decoration: none;
+   
+}
