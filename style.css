@@ -1,18 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 body{
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,44,115,1) 49%, rgba(0,212,255,1) 100%);
-text-align: center;
+
 }
 .header{
   font-size: 50px;
   font-family: 'Oswald', sans-serif;
-  background-color: black;}
+  background-color: black;
+text-align: center;
+}
+  
 li{
   display: inline-block;
   font-family: 'Kdam Thmor Pro', sans-serif;
   
 }
   
-
+nav{
+  text-align: center;
+}
+.sec{
+  background-color: aqua;
+  font-family: 'Ubuntu', sans-serif;
+}
+.art{
+  background-color: navy;
+  color: white;
+}
+.ad{
+  text-align: right; 
+  
+}
